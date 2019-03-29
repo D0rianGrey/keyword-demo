@@ -19,3 +19,5 @@ Scroll down
     mouse down on link  https://support.google.com/websearch/?p=ws_results_help&hl=uk&fg=1
 Screenshot
     Capture Page Screenshot
+Get Log
+    log title

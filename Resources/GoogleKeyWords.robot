@@ -12,3 +12,4 @@ Search for Products
     LandingPage.Verify that page contains link
     LandingPage.Scroll down
     LandingPage.Screenshot
+    LandingPage.Get Log
