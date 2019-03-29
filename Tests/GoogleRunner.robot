@@ -1,6 +1,6 @@
 *** Settings ***
-Resource  C:/Users/yvake/PycharmProjects/keyword-demo/Resources/GoogleKeyWords.robot
-Resource  C:/Users/yvake/PycharmProjects/keyword-demo/Resources/Common.robot
+Resource  ../Resources/GoogleKeyWords.robot
+Resource  ../Resources/Common.robot
 Test Setup  Begin Web Test
 Test Teardown  End web test
 *** Variables ***
