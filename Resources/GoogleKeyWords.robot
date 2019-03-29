@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  C:/development/robot-scripts/keyword-demo/Resources/PO/LandingPage.robot
+Resource  C:/Users/yvake/PycharmProjects/keyword-demo/Resources/PO/LandingPage.robot
 Library  SeleniumLibrary
 
 *** Keywords ***
@@ -7,3 +7,8 @@ Library  SeleniumLibrary
 Search for Products
     LandingPage.Load
     LandingPage.Verify Page Loaded
+    LandingPage.Input some text
+    LandingPage.Click ENTER
+    LandingPage.Verify that page contains link
+    LandingPage.Scroll down
+    LandingPage.Screenshot
