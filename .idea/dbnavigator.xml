@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DataExportManager">
@@ -25,16 +25,15 @@
     <show-object-properties value="true" />
     <loaded-nodes>
       <connection connection-id="76d73cf5-7dce-422a-83dd-7bef7fb6d0ce">
-        <schema name="information_schema" object-types="table, function, view" />
-        <schema name="pg_catalog" object-types="table, function, view" />
-        <schema name="public" object-types="index, table, column, sequence, function, view" />
+        <schema name="pg_catalog" object-types="view, table, function" />
+        <schema name="public" object-types="view, table, function" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="76d73cf5-7dce-422a-83dd-7bef7fb6d0ce">
-      <console name="dvdrental" type="STANDARD" schema="public" session="Session 1"><![CDATA[select * from actor;]]></console>
-      <console name="dvdrental 1" type="STANDARD" schema="public" session="Main"><![CDATA[select * from address;]]></console>
+      <console name="dvdrental" type="STANDARD" schema="public" session="Main">select * from actor;</console>
+      <console name="dvdrental 1" type="STANDARD" schema="public" session="Main">select * from address;</console>
       <console name="dvdrental 2" type="STANDARD" schema="information_schema" session="Main" />
     </connection>
   </component>

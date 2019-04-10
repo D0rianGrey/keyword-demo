@@ -1,8 +1,8 @@
 *** Settings ***
 Documentation  This is some basic info about the whole suite
 #Ресурсы с которых будут взяты методы
-Resource  C:/development/robot-scripts/keyword-demo/Resources/Asiaworld.robot
-Resource  C:/development/robot-scripts/keyword-demo/Resources/Common.robot
+Resource  ../Resources/Asiaworld.robot
+Resource  ../Resources/Common.robot
 #Перед запуском suite (всеми кейсами)
 Suite Setup  Insert Testing Data
 #Открывается браузер пере каждым новым тест кейсом
