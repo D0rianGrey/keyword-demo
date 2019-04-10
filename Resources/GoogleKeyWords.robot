@@ -1,5 +1,5 @@
 *** Settings ***
-Resource  C:/Users/yvake/PycharmProjects/keyword-demo/Resources/PO/LandingPage.robot
+Resource  ../Resources/PO/LandingPage.robot
 Library  SeleniumLibrary
 
 *** Keywords ***
