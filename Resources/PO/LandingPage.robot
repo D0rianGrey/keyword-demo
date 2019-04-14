@@ -1,16 +1,15 @@
 *** Settings ***
 Library  SeleniumLibrary
-
 *** Variables ***
 
 *** Keywords ***
 
 Load
-    go to  http://www.google.com
+    go to  ${START_URL}
 Verify Page Loaded
     wait until page contains  Мова Google
 Input some text
-    input text  xpath://input[@class="gLFyf gsfi"]   selenium
+    input text  xpath://input[@class="gLFyf gsfi"]   ${SEARCH_TERM}
 Click ENTER
     press keys  xpath://input[@class="gLFyf gsfi"]  ENTER
 Verify that page contains link
